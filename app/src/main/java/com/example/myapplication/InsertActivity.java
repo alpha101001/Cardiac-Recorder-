@@ -34,7 +34,6 @@ public class InsertActivity extends AppCompatActivity {
     Gson gson;
     ArrayList<ModelClass> arrayList;
     ModelClass modelClass;
-    DatePickerDialog.OnDateSetListener onDateSetListener;
     EditText date,time,systolic,diastolic,heartRate,comment;
     Button saveButton;
 
